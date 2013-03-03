@@ -1,3 +1,5 @@
+package decoder;
+
 public class luhn implements decoder{
 
 	@Override
