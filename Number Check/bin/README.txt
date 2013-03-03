@@ -5,6 +5,20 @@ Written by Matt Fitzpatrick, 2013.
 
 This code and all accompanying files was constructed as an answer to a technical examination for MTT.
 
+
+------------------------------------------------------------
+Input and Output
+
+Number Check provides a simple command line interface, which accepts TSV files of the form:
+
+1234567890123456	ALGORITHM	ARG_1	ARG_2	.....	ARG_N
+
+It outputs a sorted XML file: "NumCheck-CURRENT_TIMESTAMP.xml" containing the results of the Number 
+Check operation. 
+
+Garbage lines will be added to "Garbage-CURRENT_TIMESTAMP.txt".
+
+
 ------------------------------------------------------------
 How to add new functionality to Number Check:
 
