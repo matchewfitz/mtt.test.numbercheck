@@ -18,6 +18,13 @@ Check operation.
 
 Garbage lines will be added to "Garbage-CURRENT_TIMESTAMP.txt".
 
+------------------------------------------------------------
+How does Number Check sort the output?:
+
+Number Check divides the input into manageable chunks which it then performs Quicksort on, 
+the resulting output is then until all chunks have been sorted and processed. Finally, the chunks
+are sorted among each other using Mergesort and the XML component is written to disk. 
+
 
 ------------------------------------------------------------
 How to add new functionality to Number Check:
