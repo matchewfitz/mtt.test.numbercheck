@@ -7,16 +7,23 @@ import java.lang.Class;
 
 
 public class numberCheck{
+	
+	/**
+	 * Checks to see if a given algorithm is available.
+	 */
 	public static boolean checkDecoderAvailable(String decoderName){		
 		try {
 			Class checkClass = Class.forName("decoder." + decoderName);
-			
+
 		} catch (ClassNotFoundException e) {
 			return false;
 		}
 		return true;
 	}
-		
+	
+	/**
+	* Loads a chunk of information from the input file.
+	*/
 	public HashSet loadChunk(){
 		return new HashSet();
 	}

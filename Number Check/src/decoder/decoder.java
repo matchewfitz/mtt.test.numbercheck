@@ -1,6 +1,5 @@
 package decoder;
 
 interface decoder{
-	boolean init(String[] args);
-	String decode();
+	boolean decode(String[] args);
 }
