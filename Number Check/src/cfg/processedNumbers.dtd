@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT lineitem (numValidated,algorithm,status,Parameters)>
+<!ELEMENT numValidated (#PCDATA)>
+<!ELEMENT algorithm (#PCDATA)>
+<!ELEMENT status (#PCDATA)>
+<!ELEMENT Parameters (#PCDATA)>

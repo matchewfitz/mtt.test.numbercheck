@@ -1,4 +1,4 @@
-package numCheck;
+package numberCheck;
 
 public class Record {
 	private String RECORD_NUMBER;
@@ -43,6 +43,15 @@ public class Record {
 	public String[] getFunctionArguments(){
 		return FUNC_ARGS;
 	}
+	
+	/**
+	 * getStatus
+	 * @return status A String describing the validation status of the record.
+	 */
+	public String getStatus(){
+		return STATUS;
+	}
+	
 	
 	/**
 	 * setStatus
